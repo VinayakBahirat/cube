@@ -163,6 +163,9 @@ body {
     top: 55px;
     right:10px;
 }
+.accordion-button:focus {
+     box-shadow: none;
+}
 /* media QUERY */
 
 @media screen  and (min-width:999px){
@@ -189,7 +192,7 @@ body {
         right:10px;
     }
     .input-padding {
-        padding-right: 200px;
+        padding-right: 160px;
         padding-left: 20px;
     }
     .slider-img {
