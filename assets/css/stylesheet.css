@@ -53,8 +53,9 @@ body {
 .even-more-section {
     background-image: url('../image/eye.jpg');
     background-repeat: no-repeat;
-    background-position:35% 35%;
-    padding-bottom: 50px;
+    background-size: cover;
+    background-position:45% 45%;
+    
 }
 .overflow-padding {
     padding:90px 100px 60px 0px;
@@ -150,7 +151,12 @@ body {
     padding-right: 60px;
     padding-left: 20px;
 }
-
+.even-more-section-opacity {
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+.even-more-section-text {
+    color: #b4a9b3;
+}
 
 
 /* media QUERY */
